@@ -6,7 +6,7 @@ A RESTful API service built using Spring Boot to manage Digital Library Book's  
   + Store and manage book details such as title, author, genre, and availability status.
   + Display a list of all books with their details.
   + Allow searching for a book using its ID or title.
-  + Modify book details.
+  + Modify book details(e.g., change availability status, update title or author).
   + Remove a book.
 
 # Getting Started:
