@@ -1,5 +1,5 @@
 # Overview
-A RESTful API service built using Spring Boot to manage Digital Library Book  while using PostgreSQL to persist the data.
+A RESTful API service built using Spring Boot to manage Digital Library Book's  while using PostgreSQL to persist the data.
 
 # Features
 * Book management:
@@ -13,7 +13,7 @@ A RESTful API service built using Spring Boot to manage Digital Library Book  wh
 ## Prerequisites:
 * Java 17 or higher
 * PostgreSQL
-* Postman for API Testing
+* Postman for API Testing 
 
 ## Configuration:
 1. Open the application.properties file located in src/main/resources directory.
