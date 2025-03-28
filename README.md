@@ -34,7 +34,11 @@ Run the application using Gradle:
 ./gradlew bootrun
 
 ## Testing the application:
+Run the unit tests using Gradle:
 ./gradlew test
+
+### For Testing in Postman:
+
 
 1. Add a new Book
 POST http://localhost:8080/api/books
