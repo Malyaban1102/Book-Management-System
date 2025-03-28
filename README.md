@@ -39,45 +39,53 @@ Run the application using Gradle:
 1. Add a new Book
 POST http://localhost:8080/api/books
 Headers:
-  Content-Type: application/json
-Body (raw - JSON):
-{
+
+    Content-Type: application/json
+
+    Body (raw - JSON):
+  
+  {
+
     "bookId": "B001",
     "title": "Spring in Action",
     "author": "Craig Walls",
     "genre": "Programming",
     "availabilityStatus": "AVAILABLE"
-}
+    
+  }
 
-2. Get all Books
+3. Get all Books
 GET http://localhost:8080/api/books
 
-3. Get book by ID
+4. Get book by ID
 GET http://localhost:8080/api/books/1
 
-4. Get Book by BookId
+5. Get Book by BookId
 GET http://localhost:8080/api/books/bookId/B001
 
-5. Search Book by Title
+6. Search Book by Title
 GET http://localhost:8080/api/books/search?title=spring
 
-6. Update Book details
+7. Update Book details
 PUT http://localhost:8080/api/books/1
 Headers:
-  Content-Type: application/json
-Body (raw - JSON):
-{
+    Content-Type: application/json
+    Body (raw - JSON):
+   
+  {
+
     "bookId": "B001",
     "title": "Spring in Action (6th Edition)",
     "author": "Craig Walls",
     "genre": "Programming, Java",
     "availabilityStatus": "CHECKED_OUT"
-}
+    
+  }
 
-7. Update Book status only
+9. Update Book status only
 PATCH http://localhost:8080/api/books/B001/status?status=AVAILABLE
 
-8. Delete Book
+10. Delete Book
 DELETE http://localhost:8080/api/books/1
 
    
