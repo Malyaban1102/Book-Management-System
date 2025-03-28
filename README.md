@@ -38,6 +38,7 @@ Run the application using Gradle:
 
 1. Add a new Book
 POST http://localhost:8080/api/books
+
 Headers:
 
     Content-Type: application/json
@@ -68,7 +69,9 @@ GET http://localhost:8080/api/books/search?title=spring
 
 7. Update Book details
 PUT http://localhost:8080/api/books/1
+
 Headers:
+
     Content-Type: application/json
     Body (raw - JSON):
    
